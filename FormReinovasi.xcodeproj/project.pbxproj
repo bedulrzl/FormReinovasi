@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E0855CAE7DC7980B23572E3 /* Pods_FormReinovasi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E19AB4FDBCA59C78B5220E8 /* Pods_FormReinovasi.framework */; };
+		F2CBDF992583C809002A0372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDF982583C809002A0372 /* AppDelegate.swift */; };
+		F2CBDF9B2583C809002A0372 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDF9A2583C809002A0372 /* SceneDelegate.swift */; };
+		F2CBDF9D2583C809002A0372 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDF9C2583C809002A0372 /* ViewController.swift */; };
+		F2CBDFA02583C809002A0372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CBDF9E2583C809002A0372 /* Main.storyboard */; };
+		F2CBDFA32583C809002A0372 /* FormReinovasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFA12583C809002A0372 /* FormReinovasi.xcdatamodeld */; };
+		F2CBDFA52583C810002A0372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2CBDFA42583C810002A0372 /* Assets.xcassets */; };
+		F2CBDFA82583C810002A0372 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2CBDFA62583C810002A0372 /* LaunchScreen.storyboard */; };
+		F2CBDFB62583DBCC002A0372 /* DateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFB52583DBCC002A0372 /* DateTextField.swift */; };
+		F2CBDFB82583E902002A0372 /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFB72583E902002A0372 /* DetailTableViewController.swift */; };
+		F2CBDFBA2583F352002A0372 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFB92583F352002A0372 /* DetailTableViewCell.swift */; };
+		F2CBDFC425841233002A0372 /* SSRadioButtonsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFC225841232002A0372 /* SSRadioButtonsController.swift */; };
+		F2CBDFC525841233002A0372 /* SSRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2CBDFC325841232002A0372 /* SSRadioButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CFF7D25DDC238DA0A94B96D /* Pods-FormReinovasi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormReinovasi.debug.xcconfig"; path = "Target Support Files/Pods-FormReinovasi/Pods-FormReinovasi.debug.xcconfig"; sourceTree = "<group>"; };
+		1E19AB4FDBCA59C78B5220E8 /* Pods_FormReinovasi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FormReinovasi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88244CF48E240566FFE4C42E /* Pods-FormReinovasi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FormReinovasi.release.xcconfig"; path = "Target Support Files/Pods-FormReinovasi/Pods-FormReinovasi.release.xcconfig"; sourceTree = "<group>"; };
+		F2CBDF952583C809002A0372 /* FormReinovasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormReinovasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2CBDF982583C809002A0372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2CBDF9A2583C809002A0372 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F2CBDF9C2583C809002A0372 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2CBDF9F2583C809002A0372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2CBDFA22583C809002A0372 /* FormReinovasi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FormReinovasi.xcdatamodel; sourceTree = "<group>"; };
+		F2CBDFA42583C810002A0372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2CBDFA72583C810002A0372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2CBDFA92583C810002A0372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2CBDFB52583DBCC002A0372 /* DateTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTextField.swift; sourceTree = "<group>"; };
+		F2CBDFB72583E902002A0372 /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		F2CBDFB92583F352002A0372 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
+		F2CBDFC225841232002A0372 /* SSRadioButtonsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButtonsController.swift; sourceTree = "<group>"; };
+		F2CBDFC325841232002A0372 /* SSRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSRadioButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2CBDF922583C809002A0372 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0855CAE7DC7980B23572E3 /* Pods_FormReinovasi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14E2D053F626410CA7A9EF67 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E19AB4FDBCA59C78B5220E8 /* Pods_FormReinovasi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15685CE022DA13131116DD79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CFF7D25DDC238DA0A94B96D /* Pods-FormReinovasi.debug.xcconfig */,
+				88244CF48E240566FFE4C42E /* Pods-FormReinovasi.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F2CBDF8C2583C809002A0372 = {
+			isa = PBXGroup;
+			children = (
+				F2CBDF972583C809002A0372 /* FormReinovasi */,
+				F2CBDF962583C809002A0372 /* Products */,
+				15685CE022DA13131116DD79 /* Pods */,
+				14E2D053F626410CA7A9EF67 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2CBDF962583C809002A0372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2CBDF952583C809002A0372 /* FormReinovasi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2CBDF972583C809002A0372 /* FormReinovasi */ = {
+			isa = PBXGroup;
+			children = (
+				F2CBDFC125841232002A0372 /* SSRadioButtonController */,
+				F2CBDFB42583DBAC002A0372 /* component */,
+				F2CBDF982583C809002A0372 /* AppDelegate.swift */,
+				F2CBDF9A2583C809002A0372 /* SceneDelegate.swift */,
+				F2CBDF9C2583C809002A0372 /* ViewController.swift */,
+				F2CBDFB72583E902002A0372 /* DetailTableViewController.swift */,
+				F2CBDFB92583F352002A0372 /* DetailTableViewCell.swift */,
+				F2CBDF9E2583C809002A0372 /* Main.storyboard */,
+				F2CBDFA42583C810002A0372 /* Assets.xcassets */,
+				F2CBDFA62583C810002A0372 /* LaunchScreen.storyboard */,
+				F2CBDFA92583C810002A0372 /* Info.plist */,
+				F2CBDFA12583C809002A0372 /* FormReinovasi.xcdatamodeld */,
+			);
+			path = FormReinovasi;
+			sourceTree = "<group>";
+		};
+		F2CBDFB42583DBAC002A0372 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				F2CBDFB52583DBCC002A0372 /* DateTextField.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		F2CBDFC125841232002A0372 /* SSRadioButtonController */ = {
+			isa = PBXGroup;
+			children = (
+				F2CBDFC225841232002A0372 /* SSRadioButtonsController.swift */,
+				F2CBDFC325841232002A0372 /* SSRadioButton.swift */,
+			);
+			path = SSRadioButtonController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2CBDF942583C809002A0372 /* FormReinovasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2CBDFAC2583C810002A0372 /* Build configuration list for PBXNativeTarget "FormReinovasi" */;
+			buildPhases = (
+				6A1BF6C76A02372A3FE96708 /* [CP] Check Pods Manifest.lock */,
+				F2CBDF912583C809002A0372 /* Sources */,
+				F2CBDF922583C809002A0372 /* Frameworks */,
+				F2CBDF932583C809002A0372 /* Resources */,
+				9D33C6ECC50ECBC9D756098E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FormReinovasi;
+			productName = FormReinovasi;
+			productReference = F2CBDF952583C809002A0372 /* FormReinovasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2CBDF8D2583C809002A0372 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = Aprizal;
+				TargetAttributes = {
+					F2CBDF942583C809002A0372 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = F2CBDF902583C809002A0372 /* Build configuration list for PBXProject "FormReinovasi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2CBDF8C2583C809002A0372;
+			productRefGroup = F2CBDF962583C809002A0372 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2CBDF942583C809002A0372 /* FormReinovasi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2CBDF932583C809002A0372 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CBDFA82583C810002A0372 /* LaunchScreen.storyboard in Resources */,
+				F2CBDFA52583C810002A0372 /* Assets.xcassets in Resources */,
+				F2CBDFA02583C809002A0372 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A1BF6C76A02372A3FE96708 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FormReinovasi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D33C6ECC50ECBC9D756098E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FormReinovasi/Pods-FormReinovasi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FormReinovasi/Pods-FormReinovasi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FormReinovasi/Pods-FormReinovasi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2CBDF912583C809002A0372 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2CBDFBA2583F352002A0372 /* DetailTableViewCell.swift in Sources */,
+				F2CBDFC425841233002A0372 /* SSRadioButtonsController.swift in Sources */,
+				F2CBDF9D2583C809002A0372 /* ViewController.swift in Sources */,
+				F2CBDF992583C809002A0372 /* AppDelegate.swift in Sources */,
+				F2CBDFA32583C809002A0372 /* FormReinovasi.xcdatamodeld in Sources */,
+				F2CBDFC525841233002A0372 /* SSRadioButton.swift in Sources */,
+				F2CBDFB62583DBCC002A0372 /* DateTextField.swift in Sources */,
+				F2CBDFB82583E902002A0372 /* DetailTableViewController.swift in Sources */,
+				F2CBDF9B2583C809002A0372 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2CBDF9E2583C809002A0372 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2CBDF9F2583C809002A0372 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2CBDFA62583C810002A0372 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2CBDFA72583C810002A0372 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2CBDFAA2583C810002A0372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2CBDFAB2583C810002A0372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2CBDFAD2583C810002A0372 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFF7D25DDC238DA0A94B96D /* Pods-FormReinovasi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FormReinovasi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprizal.FormReinovasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2CBDFAE2583C810002A0372 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88244CF48E240566FFE4C42E /* Pods-FormReinovasi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FormReinovasi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aprizal.FormReinovasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2CBDF902583C809002A0372 /* Build configuration list for PBXProject "FormReinovasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2CBDFAA2583C810002A0372 /* Debug */,
+				F2CBDFAB2583C810002A0372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2CBDFAC2583C810002A0372 /* Build configuration list for PBXNativeTarget "FormReinovasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2CBDFAD2583C810002A0372 /* Debug */,
+				F2CBDFAE2583C810002A0372 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F2CBDFA12583C809002A0372 /* FormReinovasi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F2CBDFA22583C809002A0372 /* FormReinovasi.xcdatamodel */,
+			);
+			currentVersion = F2CBDFA22583C809002A0372 /* FormReinovasi.xcdatamodel */;
+			path = FormReinovasi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F2CBDF8D2583C809002A0372 /* Project object */;
+}

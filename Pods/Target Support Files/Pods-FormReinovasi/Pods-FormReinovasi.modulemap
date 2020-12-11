@@ -1,0 +1,6 @@
+framework module Pods_FormReinovasi {
+  umbrella header "Pods-FormReinovasi-umbrella.h"
+
+  export *
+  module * { export * }
+}
