@@ -81,6 +81,10 @@ class DateTextField: UITextField {
         toolBar.isUserInteractionEnabled = true
         toolBar.sizeToFit()
         inputAccessoryView = toolBar
+       if #available(iOS 13.4, *) {
+            datePicker.preferredDatePickerStyle = .wheels
+            datePicker.sizeToFit()
+        }
 //        datePicker.minimumDate = Date()
     }
     

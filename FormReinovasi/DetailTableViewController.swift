@@ -14,7 +14,6 @@ class DetailTableViewController: UITableViewController {
     
     var itemArray = [Item]()
     
-    
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,12 +69,10 @@ extension DetailTableViewController: SwipeTableViewCellDelegate {
         guard orientation == .right else { return nil }
 
         let deleteAction = SwipeAction(style: .destructive, title: "Delete") { action, indexPath in
-            // handle action by updating model with deletion
-       
+
             self.context.delete(self.itemArray[indexPath.row])
             self.itemArray.remove(at: indexPath.row)
            
-//            tableView.reloadData()
         }
 
         // customize the action appearance
@@ -87,7 +84,6 @@ extension DetailTableViewController: SwipeTableViewCellDelegate {
     func tableView(_ tableView: UITableView, editActionsOptionsForRowAt indexPath: IndexPath, for orientation: SwipeActionsOrientation) -> SwipeOptions {
         var options = SwipeOptions()
         options.expansionStyle = .destructive
-//        options.transitionStyle = .border
         
         return options
     }
